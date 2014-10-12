@@ -9,7 +9,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "build": "gulp",
+    "build": "gulp build",
     "test": "mocha test/*.js"
   },
   "directories": {
@@ -24,7 +24,6 @@
     "wzeditor-word-rules-parser": "^1.1.0"
   },
   "devDependencies": {
-    "JSONStream": "^0.9.0",
     "event-stream": "^3.1.7",
     "gulp": "^3.8.8",
     "gulp-concat": "^2.4.1",
