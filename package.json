@@ -1,0 +1,33 @@
+{
+  "name": "technical-word-rules",
+  "description": "technical term word rules list(wzeditor).",
+  "version": "1.0.0",
+  "homepage": "https://github.com/azu/technical-word-rules/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/technical-word-rules.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "test": "mocha test/*.js"
+  },
+  "directories": {
+    "test": "test/"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/technical-word-rules/issues"
+  },
+  "dependencies": {
+    "wzeditor-word-rules-parser": "^1.1.0"
+  },
+  "devDependencies": {
+    "JSONStream": "^0.9.0",
+    "event-stream": "^3.1.7",
+    "gulp": "^3.8.8",
+    "gulp-concat": "^2.4.1",
+    "vinyl-source-stream": "^1.0.0"
+  }
+}
