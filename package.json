@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/azu/technical-word-rules.git"
   },
-  "main": "index.js",
+  "main": "all.json",
   "scripts": {
     "build": "gulp build",
     "test": "mocha test/*.js"
