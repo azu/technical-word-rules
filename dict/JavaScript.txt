@@ -6,3 +6,4 @@ Web Component	web component
 # Storage
 localStorage	localstorage
 sessionStorage	session storage|sessionstorage
+Chromium	Chronium
