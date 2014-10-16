@@ -7,4 +7,3 @@ Web Component	web component
 # http://www.w3.org/TR/webstorage/
 localStorage	localstorage
 sessionStorage	session storage|sessionstorage
-Chromium	Chronium
