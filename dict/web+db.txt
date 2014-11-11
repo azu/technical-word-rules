@@ -83,7 +83,6 @@ O/Rマッパ	O/Rマッパー|ORM
 ツイート	tweet|Tweet|ツィート
 ツリーオブジェクト	ツリー・オブジェクト
 ツリーエントリ	ツリー・エントリ
-テーブル	table|Table	[^◆],[^◆]
 ディレクター	ディレクタ
 データサービス	Data Services
 データ同期	Data Sync
