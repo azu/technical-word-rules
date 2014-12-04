@@ -1,4 +1,4 @@
-# technical-word-rules
+# technical-word-rules [![Build Status](https://travis-ci.org/azu/technical-word-rules.svg?branch=master)](https://travis-ci.org/azu/technical-word-rules)
 
 [WEB+DB PRESS用語統一ルール](https://gist.github.com/inao/f55e8232e150aee918b9 " WEB+DB PRESS用語統一ルール secret")をベースに、
 JavaScript関係やJSer.infoで使用する技術用語などのWZEditor形式の辞書ファイルとコンパイル済みJSONです。
@@ -7,6 +7,12 @@ JavaScript関係やJSer.infoで使用する技術用語などのWZEditor形式�
 - [azu/codemirror-spellckecker](https://github.com/azu/codemirror-spellckecker "azu/codemirror-spellckecker")
 
 などと一緒に使うことを目的にしています。
+
+## API
+
+以下のURLから全ての辞書を結合したJSONファイルを取得出来ます
+
+- http://azu.github.io/technical-word-rules/all.json
 
 ## Installation
 
