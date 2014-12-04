@@ -1,7 +1,7 @@
 {
   "name": "technical-word-rules",
   "description": "technical term word rules list(wzeditor).",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "homepage": "https://github.com/azu/technical-word-rules/",
   "repository": {
     "type": "git",
