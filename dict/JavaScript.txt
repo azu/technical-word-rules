@@ -2,8 +2,9 @@
 Browserify	broserify
 Browserify
 Virtual DOM	VirtualDOM|VirtualDom
-Web Component	web component
+Web Components	web component|WebComponent
 # Web Storage はどちらでも正しいがよく見かけるキャメルケースに統一する
 # http://www.w3.org/TR/webstorage/
 localStorage	localstorage
 sessionStorage	session storage|sessionstorage
+HTML Imports	HTML Import
