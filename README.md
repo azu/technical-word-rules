@@ -8,6 +8,19 @@ JavaScript関係やJSer.infoで使用する技術用語などのWZEditor形式�
 
 などと一緒に使うことを目的にしています。
 
+## 辞書の書式
+
+詳しくは [こちら](https://github.com/azu/wzeditor-word-rules-parser/blob/master/doc/wzeditor-rule.md "wzeditor-word-rules-parser/wzeditor-rule.md at master · azu/wzeditor-word-rules-parser")を参考にして下さい。
+
+```
+# WZEditorの用語統一辞書
+# タブ区切り、#開始はコメント
+表記単語    指定単語    前置文字,後置文字,オプション
+```
+
+[EditorConfig](http://editorconfig.org/ "EditorConfig") の設定が用意されているので、
+対応しているエディタか[Browser extension: EditorConfig for GitHub](http://rreverser.com/gh-github-editorconfig/ "Browser extension: EditorConfig for GitHub")を利用すると編集が楽になります。
+
 ## API
 
 以下のURLから全ての辞書を結合したJSONファイルを取得出来ます
