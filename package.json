@@ -9,6 +9,7 @@
   },
   "main": "all.json",
   "scripts": {
+    "install": "node install-hook.js",
     "build": "gulp build",
     "test": "mocha test/*.js"
   },
