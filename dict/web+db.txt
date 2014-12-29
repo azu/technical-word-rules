@@ -6,7 +6,7 @@
 
 Cookie	クッキー|COOKIE|cookie
 WebSocket	Web Socket
-Web	ウェブ|WEB|ウェッブ	[^/],[^/\+]
+Web	WEB|ウェッブ	[^/],[^/\+]
 O/Rマッ	ORマッ|O-Rマッ
 O/Rマッパ	O/Rマッパー|ORM
 
