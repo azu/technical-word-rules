@@ -231,7 +231,6 @@ Emacs \1	Emacs([0-9])	,,RE,<★Emacs1★>
 Emacs Lisp
 EventMachine
 Excel	エクセル
-express
 # ●facebook.comを除外したい●
 # 以下の記法が使えれば解決なのですが、機能しないです。
 # Facebook		[^/.],[^/.],<☆facebook.com☆>
