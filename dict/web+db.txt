@@ -386,7 +386,6 @@ Visual Basic	VisualBasic|VB
 Visual Studio .NET	Visual Studio.NET
 VMware
 WARファイル
-Web
 Web API	WebAPI|WEBAPI|WEB API
 Web UI	WebUI
 WebLogic	Web Logic
@@ -440,16 +439,17 @@ Wiki	wiki|ウィキ	[^/.],[^/.]
 
 # （MVC、フレームワーク用語）
 
-モデル	Model
-ビュー	View|view
-コントローラ	Controller|コントローラー
+# モデル	Model
+# ビュー	View|view
+# コントローラ	Controller|コントローラー
+# アクション	Action
+
 アクションクラス	Actionクラス
 アクションリスナ	ActionListener|Action Listener|ActionListener
 アクションマッピング	Actionマッピング|Action Mapping
 アクションフォームBean	ActionFormBean|ActionFormBeans|ActionForm Bean
 アクションフォーム	Action Form|ActionForm
 アクションサーブレット	ActionServlet|Action Servlet|Actionサーブレット
-アクション	Action
 フォームBean	Form Bean|フォームビーン
 リクエストオブジェクト	Requestオブジェクト
 レスポンスオブジェクト	Responseオブジェクト
