@@ -260,7 +260,6 @@ HTTP \1	HTTP([0-9])	,,RE,<★HTTP1★>
 I/O	IO	[^\.\s],,RE,<☆Socket.io☆>
 ImageMagick
 Internet Explorer \1\2	Internet Explorer([0-9])|IE([0-9])	,,RE,<★Internet Explorer4★IE6★>
-Internet Explorer	IE
 inode	iノード
 iOS SDK	<IOS SDK>
 ISO 	ISO-
