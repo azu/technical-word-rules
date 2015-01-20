@@ -1,3 +1,4 @@
 \1 EAP	([0-9\.]+)EAP	,,RE,<WebStorm 9EAP→WebStorm 9 EAP>
 Chromium	Chronium
 WebDriver
+ライブラリ	ライブライ
