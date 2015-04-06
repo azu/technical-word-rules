@@ -246,7 +246,7 @@ Gears	GoogleGears|Google Gears
 GHCi
 Git
 GitHub	github	[^/\.],,RE,<★github★GITHUB★☆/github☆>
-Gmail
+Gmail	gmail	[^/.@],[^/.],<☆gmail☆>
 Google Gadget	Googleガジェット
 Google Maps	Google Map|GoogleMaps|GoogleMap|Googleマップ
 Greasemonkey	GreaseMonkey|Grease monkey|Grease Monkey
