@@ -1,12 +1,13 @@
 #!/bin/bash
+
 if [[ "$TRAVIS_PULL_REQUEST" == "true" ]]; then
-echo "This is a pull request. No deployment will be done.";
-  exit 0;
+    echo "This is a pull request. No deployment will be done."; exit 0
 fi
-if [[ "$TRAVIS_BRANCH" != "master" ]] && [[ "$TRAVIS_BRANCH" != "staging" ]]; then
-echo "This is not a deployable branch.";
-  exit 0;
+
+if [[ "$TRAVIS_BRANCH" != "master" ]]; then
+    echo "No deployment on BRANCH='$TRAVIS_BRANCH'"; exit 0
 fi
+
 
 echo "BUMP HELLO WORLD set up $GH_REPO [via travis] for $GIT_NAME <${GIT_EMAIL}>"
 export REPO_URL="https://$GH_TOKEN@github.com/$GH_REPO.git"
