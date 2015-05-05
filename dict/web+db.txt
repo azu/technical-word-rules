@@ -559,3 +559,7 @@ kbps	Kbps	[\d十百千万],,RE,<★1Kbps★十Kbps★>
 kHz	KHz|Khz|khz|KHZ|kHZ	[\d十百千万],,RE,<★1KHz★十KHz★>
 Hz	hz|HZ	[\d十百千万],,RE,<★1HZ★十HZ★>
 
+# Code
+try/catch	try...catch
+for/in	for...in
+for/of	for...of
