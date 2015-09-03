@@ -103,7 +103,7 @@ O/Rマッパ	O/Rマッパー|ORM
 パーサ	パーサー|パーザー|パーザ
 パーマリンク	Permalink|permalink|permanent link|パーマネントリンク
 バッファ	バッファー
-パス	path|Path
+パス	path|Path	[^\w\s],,RE
 パターン	パタン
 ハッシュ	hash|Hash
 バラ	薔薇
