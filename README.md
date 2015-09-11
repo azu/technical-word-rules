@@ -8,6 +8,10 @@ JavaScript関係やJSer.infoで使用する技術用語などのWZEditor形式�
 
 などと一緒に使うことを目的にしています。
 
+[textlint](https://github.com/azu/textlint)から使う場合は以下のルールを使うことで利用できます。
+
+- [azu/textlint-rule-spellcheck-tech-word](https://github.com/azu/textlint-rule-spellcheck-tech-word "azu/textlint-rule-spellcheck-tech-word")
+
 ## 辞書の書式
 
 詳しくは [こちら](https://github.com/azu/wzeditor-word-rules-parser/blob/master/doc/wzeditor-rule.md "wzeditor-word-rules-parser/wzeditor-rule.md at master · azu/wzeditor-word-rules-parser")を参考にして下さい。
@@ -49,7 +53,7 @@ var json = require("technical-word-rules");
 ## 関連
 
 -  [azu/codemirror-spellckecker](https://github.com/azu/codemirror-spellckecker "azu/codemirror-spellckecker") でスペルチェック + QuickFixの辞書として利用しています。
-
+- [azu/textlint-rule-spellcheck-tech-word](https://github.com/azu/textlint-rule-spellcheck-tech-word "azu/textlint-rule-spellcheck-tech-word") この辞書を使ったtextlintルール
 
 ## Contributing
 
