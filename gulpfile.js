@@ -6,28 +6,8 @@ var concat = require('gulp-concat');
 var parser = require("wzeditor-word-rules-parser");
 var es = require("event-stream");
 var prh = require("prh");
-function string_src(filename, string) {
-    var src = require('stream').Readable({objectMode: true});
-    src._read = function () {
-        this.push(new gutil.File({cwd: "", base: "", path: "index.json", contents: new Buffer(string)}));
-        this.push(null)
-    };
-    return src
-}
-gulp.task("build", function () {
-    return gulp.src("dict/*.txt")
-        .pipe(concat("all.txt"))
-        // -> gulp -> file stream
-        .pipe(es.map(function (file, cb) {
-            try {
-                var result = parse(String(file.contents));
-                fs.writeFile("./all.json", JSON.stringify(result), cb);
-            } catch (e) {
-                cb(e);
-            }
-        }))
-});
-gulp.task("build:yml", function (taskCallback) {
+
+gulp.task("build", function (taskCallback) {
     var allContents = [];
     gulp.src("dict/*.yml")
         .pipe(es.map(function (file, cb) {
@@ -109,6 +89,20 @@ gulp.task("yml", function () {
                 var ruleContent = "version: 1\nrules:\n" + output;
                 var fileName = path.basename(file.path, ".txt") + ".yml";
                 fs.writeFile(path.join(__dirname, "dict", fileName), ruleContent, cb);
+            } catch (e) {
+                cb(e);
+            }
+        }))
+});
+
+gulp.task("old_build", function () {
+    return gulp.src("old_dict/*.txt")
+        .pipe(concat("all.txt"))
+        // -> gulp -> file stream
+        .pipe(es.map(function (file, cb) {
+            try {
+                var result = parse(String(file.contents));
+                fs.writeFile("./all.json", JSON.stringify(result), cb);
             } catch (e) {
                 cb(e);
             }

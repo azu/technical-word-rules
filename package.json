@@ -10,7 +10,8 @@
   "main": "all.json",
   "scripts": {
     "install": "node install-hook.js",
-    "build": "gulp build"
+    "build": "gulp build",
+    "test": "find ./test/fixtures | xargs textlint"
   },
   "directories": {
     "test": "test/"
@@ -24,10 +25,17 @@
     "wzeditor-word-rules-parser": "^1.1.0"
   },
   "devDependencies": {
+    "babel": "^5.8.23",
+    "espower-babel": "^3.3.0",
     "event-stream": "^3.1.7",
+    "glob": "^5.0.14",
     "gulp": "^3.8.8",
     "gulp-concat": "^2.4.1",
+    "mocha": "^2.3.2",
+    "power-assert": "^1.0.1",
     "prh": "^0.5.0",
+    "textlint": "^3.4.0",
+    "textlint-rule-prh": "^1.0.3",
     "vinyl-source-stream": "^1.0.0"
   }
 }
