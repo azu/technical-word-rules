@@ -27,6 +27,7 @@
     "event-stream": "^3.1.7",
     "gulp": "^3.8.8",
     "gulp-concat": "^2.4.1",
+    "prh": "^0.5.0",
     "vinyl-source-stream": "^1.0.0"
   }
 }

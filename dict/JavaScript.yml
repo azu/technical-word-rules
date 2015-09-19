@@ -1,0 +1,30 @@
+version: 1
+rules:
+  # ★Backbone.js 42.0.0★
+  - expected: .js $1
+    pattern: /.js([.0-9]+)/
+
+  # ★ECMAScript6★ ☆ECMAScript 6☆
+  - expected: ECMAScript $1
+    pattern: /ECMAScript([0-9]+)/
+
+  - expected: Browserify
+    pattern: /\bbroserify\b/
+
+  - expected: Browserify
+    pattern: /\bBrowserify\b/i
+
+  - expected: Virtual DOM
+    pattern: /\bVirtualDOM\b|\bVirtualDom\b/
+
+  - expected: Web Components
+    pattern: /\bweb component\b|\bWebComponent\b/
+
+  - expected: localStorage
+    pattern: /\blocalstorage\b/
+
+  - expected: sessionStorage
+    pattern: /\bsession storage\b|\bsessionstorage\b/
+
+  - expected: HTML Imports
+    pattern: /\bHTML Import\b/

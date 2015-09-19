@@ -1,0 +1,8 @@
+version: 1
+rules:
+  # WebStorm 9EAP→WebStorm 9 EAP
+  - expected: $1 EAP
+    pattern: /([0-9\.]+)EAP/
+
+  - expected: WebDriver
+    pattern: /\bWebDriver\b/i

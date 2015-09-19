@@ -1,0 +1,7 @@
+version: 1
+rules:
+  - expected: Ecma標準
+    pattern: ECMA標準
+
+  - expected: ES.next
+    pattern: /\bES next\b/
