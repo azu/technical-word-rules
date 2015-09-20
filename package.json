@@ -11,7 +11,8 @@
   "scripts": {
     "install": "node install-hook.js",
     "build": "gulp build",
-    "test": "find ./test/fixtures | xargs textlint"
+    "test": "textlint ./test/fixtures/ && npm run test:failure",
+    "test:failure": "! textlint ./test/failure/ && echo 'Test Failure is Success'"
   },
   "directories": {
     "test": "test/"
