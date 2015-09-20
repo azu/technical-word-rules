@@ -4,4 +4,9 @@ rules:
     pattern: ECMA標準
 
   - expected: ES.next
-    pattern: /\bES next\b/
+    pattern:  ES next
+    options:
+      wordBoundary: true
+    specs:
+      - from: ES nextでは
+        to  : ES.nextでは
