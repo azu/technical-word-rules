@@ -1,9 +1,8 @@
 # technical-word-rules [![Build Status](https://travis-ci.org/azu/technical-word-rules.svg?branch=master)](https://travis-ci.org/azu/technical-word-rules)
 
 [WEB+DB PRESS用語統一ルール](https://gist.github.com/inao/f55e8232e150aee918b9 " WEB+DB PRESS用語統一ルール secret")をベースに、
-JavaScript関係やJSer.infoで使用する技術用語などのWZEditor形式の辞書ファイルとコンパイル済みJSONです。
+JavaScript関係や[JSer.info](http://jser.info)で使用する技術用語などの表記揺れ補正辞書とコンパイル済みJSONです。
 
-- [azu/wzeditor-word-rules-parser](https://github.com/azu/wzeditor-word-rules-parser "azu/wzeditor-word-rules-parser")
 - [azu/codemirror-spellckecker](https://github.com/azu/codemirror-spellckecker "azu/codemirror-spellckecker")
 
 などと一緒に使うことを目的にしています。
@@ -14,16 +13,38 @@ JavaScript関係やJSer.infoで使用する技術用語などのWZEditor形式�
 
 ## 辞書の書式
 
-詳しくは [こちら](https://github.com/azu/wzeditor-word-rules-parser/blob/master/doc/wzeditor-rule.md "wzeditor-word-rules-parser/wzeditor-rule.md at master · azu/wzeditor-word-rules-parser")を参考にして下さい。
+[prh](https://github.com/vvakame/prh "vvakame/prh")のyml形式でルールを記述します。
 
-```
-# WZEditorの用語統一辞書
-# タブ区切り、#開始はコメント
-表記単語    指定単語    前置文字,後置文字,オプション
+```yml
+rules:
+# expectedのみだと 大文字小文字全角半角の統一 されてるかをチェックできる
+  - expected: jQuery
+    specs:
+      - from: jquery
+        to:   jQuery
+      - from: ＪＱＵＥＲＹ
+        to:   jQuery
+# patternにマッチするものはexpecetedが本来の表現であるというルール
+# ディフォルト => デフォルト
+# 表現の統一を図る
+  - expected: デフォルト
+    pattern:  ディフォルト
+# 正規表現も使える
+# 正規表現リテラルはymlの拡張であるがJavaScriptの正規表現と同じ
+  - expected: $1ソフトウェア
+    pattern:  /([^経])ソフトウエア/
+    specs:
+      # 普通に変換
+      - from: 広義のソフトウエア
+        to:   広義のソフトウェア
+      # 日経ソフトウエア(書名)は変換しない
+      - from: 日経ソフトウエア
+        to:   日経ソフトウエア
 ```
 
-[EditorConfig](http://editorconfig.org/ "EditorConfig") の設定が用意されているので、
-対応しているエディタか[Browser extension: EditorConfig for GitHub](http://rreverser.com/gh-github-editorconfig/ "Browser extension: EditorConfig for GitHub")を利用すると編集が楽になります。
+詳しくは以下を参照します。
+
+- [prh/sample.yml at master · vvakame/prh](https://github.com/vvakame/prh/blob/master/misc/sample.yml "prh/sample.yml at master · vvakame/prh")
 
 ## API
 
@@ -48,12 +69,15 @@ var json = require("technical-word-rules");
 以下の記事で解説しています。
 
 - [textlintで日本語の文章をチェックする | Web Scratch](http://efcl.info/2015/09/10/introduce-textlint/ "textlintで日本語の文章をチェックする | Web Scratch")
+- [textlint + prhで表記ゆれを検出する | Web Scratch](http://efcl.info/2015/09/14/textlint-rule-prh/ "textlint + prhで表記ゆれを検出する | Web Scratch")
+
+## Testing
 
 
-## 関連
+    npm test
 
--  [azu/codemirror-spellckecker](https://github.com/azu/codemirror-spellckecker "azu/codemirror-spellckecker") でスペルチェック + QuickFixの辞書として利用しています。
-- [azu/textlint-rule-spellcheck-tech-word](https://github.com/azu/textlint-rule-spellcheck-tech-word "azu/textlint-rule-spellcheck-tech-word") この辞書を使ったtextlintルール
+既存のルールでパス済みのJSer.infoの記事に対してテストが実行されます。
+記事がおかしい場合は[test/fixtures](test/fixtures)も併せて修正します。
 
 ## Contributing
 

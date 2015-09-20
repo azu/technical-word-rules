@@ -2,9 +2,13 @@
 # top-most EditorConfig file
 root = true
 # 4 space indentation
-[dict/*.txt]
+[old_dict/*.txt]
 indent_style = tab
 indent_size = 8
+
+[dict/*.yml]
+indent_style = space
+indent_size = 2
 
 [*.js]
 indent_style = space

@@ -1,0 +1,13 @@
+version: 1
+rules:
+  - expected: Foundation  Fundation
+    pattern: /\bFoundation  Fundation\b/i
+
+  - expected: ライブラリ
+    pattern: ライブライ
+
+  - expected: Chromium
+    pattern: /\bChronium\b/
+
+  - expected: リリース
+    pattern: リリーう

@@ -1,0 +1,17 @@
+version: 1
+rules:
+  - expected: $1発売
+    pattern: /(\d+年\d+月\d+日)\s発売/
+
+  - expected: $1デフォルトで有効$2
+    pattern: /(?:(が)デフォルト有効)|(?:デフォルト有効(に))/
+
+  - expected: 対処法
+    pattern: 対処方
+
+  # 用になっている=>ようになっている
+  - expected: ように$1
+    pattern: /用に(な)/
+
+  - expected: 行える
+    pattern: 行得る
