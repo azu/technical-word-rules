@@ -6,8 +6,16 @@ rules:
   - expected: WebSocket
     pattern: /\bWeb Socket\b/
 
-  - expected: $1Web$2
-    pattern: /(?:([^\/])\bWEB)|(?:WEB\b([^\+]))/
+  - expected: Web$1
+    pattern:
+      - /WEB([^(\+DB)])/
+    specs:
+      - from: WEBサイト
+        to  : Webサイト
+      - from: WEBでは
+        to  : Webでは
+      - from: これはWEB+DBなのでセーフ
+        to  : これはWEB+DBなのでセーフ
 
   - expected: $1Web$2
     pattern: /(?:([^\/])ウェッブ)|(?:ウェッブ([^\+]))/
