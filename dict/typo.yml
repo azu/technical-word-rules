@@ -1,13 +1,20 @@
 version: 1
 rules:
-  - expected: Foundation  Fundation
-    pattern: /\bFoundation  Fundation\b/i
+  - expected: Foundation
+    patterns: Fundation
+    options:
+      wordBoundary: true
+    specs:
+      - from: Fundation
+        to:   Foundation
 
   - expected: ライブラリ
     pattern: ライブライ
 
   - expected: Chromium
-    pattern: /\bChronium\b/
+    pattern: Chronium
+    options:
+      wordBoundary: true
 
   - expected: リリース
     pattern: リリーう

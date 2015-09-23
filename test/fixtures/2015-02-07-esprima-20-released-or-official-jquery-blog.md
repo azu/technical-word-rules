@@ -14,6 +14,6 @@ relatedLinks:
   - title: 最近のASTパーサの動き
     url: 'http://azu.github.io/slide/crosushi/shift-ast.html'
 ---
-jQuery Fundationに移管したEsprimaのVer 2.0がリリース。
+jQuery Foundationに移管したEsprimaのVer 2.0がリリース。
 "harmony"ブランチをマージしたリリースとなりES6の機能を多く含んでいる。
 また、IssueのメインがGoogle CodeからGitHubへ移行した。
