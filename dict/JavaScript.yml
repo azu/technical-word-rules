@@ -72,3 +72,7 @@ rules:
   - expected: Browserify
   - expected: Redux
   - expected: Underscore.js
+  - expected: Ember.js
+  - expected: Ember.js
+    patterns:
+      - EmberJS
