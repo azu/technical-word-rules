@@ -51,3 +51,9 @@ rules:
     specs:
       - from: ブラウザ上でどうやって計測するかやPeformance Timelineなどの仕様について
         to  : ブラウザ上でどうやって計測するかやPerformance Timelineなどの仕様について
+
+  - expected: Workaround
+    patterns: Workaound
+    specs:
+      - from: iOS7と8のquerySelectorバグの対処(Workaound)
+        to:  iOS7と8のquerySelectorバグの対処(Workaround)
