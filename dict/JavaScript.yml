@@ -53,3 +53,4 @@ rules:
 
   - expected: Browserify
   - expected: Redux
+  - expected: Underscore.js
