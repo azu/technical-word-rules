@@ -25,6 +25,7 @@ echo "=COMMIT="
 echo "MESSAGE :" $lastCommit
 
 git add . --verbose
+git add -f all.json --verbose
 git commit -m "Travis build $TRAVIS_BUILD_NUMBER"
 
 echo "=PUSH STATUS="
