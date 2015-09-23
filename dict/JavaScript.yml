@@ -45,6 +45,11 @@ rules:
   - expected: HTML Imports
     pattern: /\bHTML Import\b/
 
+  - expected: JavaScript
+    specs:
+      - from: javascript
+        to:   JavaScript
+
   # ★Backbone.js 42.0.0★
   - expected: .js $1
     pattern: /.js([.0-9]+)/
