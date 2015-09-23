@@ -20,3 +20,10 @@ rules:
   - expected: を比較して
     patterns:
       - の比較して
+
+  - expected: 新規開発を終了
+    patterns:
+      - 新規開発終了
+    specs:
+      - from: YUIは新規開発終了し、今後はYahoo内部向けの修正に留めるとの事。
+        to  : YUIは新規開発を終了し、今後はYahoo内部向けの修正に留めるとの事。
