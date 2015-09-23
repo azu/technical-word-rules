@@ -24,3 +24,5 @@ rules:
         to:   XXXwebkit
       - from: node-webkit
         to:   node-webkit
+
+  - expected: OCaml
