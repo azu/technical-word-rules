@@ -45,3 +45,9 @@ rules:
 
   - expected: 行える
     pattern: 行得る
+
+  - expected: Performance
+    patterns: /peformance/i
+    specs:
+      - from: ブラウザ上でどうやって計測するかやPeformance Timelineなどの仕様について
+        to  : ブラウザ上でどうやって計測するかやPerformance Timelineなどの仕様について
