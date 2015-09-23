@@ -4,3 +4,6 @@ rules:
   - expected: Leanpub
   # O'reilly でもいいけど、小文字だけはダメにしておく
   - expected: Oreilly
+  - expected: Sauce Labs
+    patterns:
+      - SauceLabs

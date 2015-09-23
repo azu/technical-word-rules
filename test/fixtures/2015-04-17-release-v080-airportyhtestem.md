@@ -11,4 +11,4 @@ tags:
   - ReleaseNote
 ---
 Testem 0.8.0リリース。
-SauceLabsのようにリモートとつないで実行する場合の挙動を改善
+Sauce Labsのようにリモートとつないで実行する場合の挙動を改善
