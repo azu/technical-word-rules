@@ -39,3 +39,9 @@ rules:
     specs:
       - from: CoffeScriptからES6
         to:   CoffeeScriptからES6
+
+  - expected: 対処法
+    pattern: 対処方
+
+  - expected: 行える
+    pattern: 行得る
