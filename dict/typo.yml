@@ -24,3 +24,6 @@ rules:
     specs:
       - from: propety
         to:   Property
+
+  - expected: Arrow Function
+    pattern: Array Function
