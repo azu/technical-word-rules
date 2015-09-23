@@ -26,3 +26,4 @@ rules:
         to:   node-webkit
 
   - expected: OCaml
+  - expected: Windows
