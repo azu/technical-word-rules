@@ -60,6 +60,12 @@ rules:
       # CSSの方はpointer-eventsとする
       - from: pointer-events
         to:   pointer-events
+  - expected: Touch Events
+    patterns:
+      - Touch Event
+    specs:
+      - from: Touch Event、Fullscreen APIなどのサポートなど
+        to:   Touch Events、Fullscreen APIなどのサポートなど
   - expected: Web Audio API
     pattern:
       - /WebAudio API/i
