@@ -18,3 +18,9 @@ rules:
 
   - expected: リリース
     pattern: リリーう
+
+  - expected: Property
+    pattern: /propety/i
+    specs:
+      - from: propety
+        to:   Property
