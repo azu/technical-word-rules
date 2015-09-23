@@ -28,7 +28,13 @@ rules:
     pattern: /\bVirtualDOM\b|\bVirtualDom\b/
 
   - expected: Web Components
-    pattern: /\bweb component\b|\bWebComponent\b/
+    patterns:
+      - WebComponents
+      - web components
+      - Web components
+    specs:
+      - from: WebComponentsについてのWeeklyメールマガジン
+        to:   Web ComponentsについてのWeeklyメールマガジン
 
   - expected: localStorage
     pattern: /\blocalstorage\b/

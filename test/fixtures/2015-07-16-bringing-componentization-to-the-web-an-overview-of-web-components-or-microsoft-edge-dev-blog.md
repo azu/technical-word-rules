@@ -10,6 +10,6 @@ tags:
   - MSEdge
   - browser
 ---
-WebComponentsについての詳しい解説。
+Web Componentsについての詳しい解説。
 何を目的にしているか、関連するコンポーネント実装の歴史。
 CSSスタイルのisolation、スタイルのスコープ、Global object isolation、iframeには欠けている部分についてなど
