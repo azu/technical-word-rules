@@ -11,4 +11,4 @@ tags:
   - Tools
 ---
 npmでモジュールを公開するのを補助する色々なツールの紹介。
-TravisCIの設定、gh-pagesへのデプロイスクリプト、package.jsonの整形、npm release、依存パッケージのチェックなど
+Travis CIの設定、gh-pagesへのデプロイスクリプト、package.jsonの整形、npm release、依存パッケージのチェックなど

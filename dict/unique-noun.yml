@@ -7,3 +7,6 @@ rules:
   - expected: Sauce Labs
     patterns:
       - SauceLabs
+  - expected: Travis CI
+    patterns:
+      - /TravisCI/i
