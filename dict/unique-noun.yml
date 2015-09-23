@@ -10,3 +10,10 @@ rules:
   - expected: Travis CI
     patterns:
       - /TravisCI/i
+  - expected: HTML5 Rocks
+    patterns:
+      - /HTML5Rocks/i
+      - /HTML5Rock/i
+    specs:
+      - from: HTML5Rockに現在公開されている翻訳記事のまとめ
+        to  : HTML5 Rocksに現在公開されている翻訳記事のまとめ
