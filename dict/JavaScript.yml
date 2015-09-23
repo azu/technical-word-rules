@@ -61,8 +61,6 @@ rules:
       - from: pointer-events
         to:   pointer-events
 
-  #
-  - expected: Template strings
 
 
   # ★Backbone.js 42.0.0★
