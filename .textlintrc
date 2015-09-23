@@ -6,6 +6,7 @@
         "dict/jser-info.yml",
         "dict/software.yml",
         "dict/typo.yml",
+        "dict/unique-noun.yml",
         "dict/web+db.yml"
       ]
     }

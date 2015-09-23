@@ -1,0 +1,4 @@
+version: 1
+rules:
+# その他の固有名詞など
+  - expected: Leanpub
