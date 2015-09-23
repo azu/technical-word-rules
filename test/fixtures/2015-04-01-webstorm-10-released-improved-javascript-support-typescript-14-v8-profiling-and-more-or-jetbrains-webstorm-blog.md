@@ -13,4 +13,4 @@ relatedLinks:
     url: 'https://www.jetbrains.com/webstorm/whatsnew/'
 ---
 WebStorm 10リリース。
-ES6のサポート改善、TypeScript 1.4のサポート、spy-jsで依存関係の表示、多段SourceMapに対応、V8のプロファイリングのサポートなど
+ES6のサポート改善、TypeScript 1.4のサポート、spy-jsで依存関係の表示、多段Source Mapに対応、V8のプロファイリングのサポートなど

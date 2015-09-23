@@ -10,4 +10,4 @@ tags:
   - ReleaseNote
 ---
 WebStorm 10 EAPリリース。
-JavaScriptサポートの改善、spy-jsが多段SourceMapに対応しAltJSなどでも元ソースへジャンプできるように、Firefoxでのデバッグに再対応
+JavaScriptサポートの改善、spy-jsが多段Source Mapに対応しAltJSなどでも元ソースへジャンプできるように、Firefoxでのデバッグに再対応

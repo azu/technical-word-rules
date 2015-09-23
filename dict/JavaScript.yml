@@ -24,8 +24,8 @@ rules:
       - from: ES6 classes
         to:   ES6 Classes
 
-  - expected: Virtual DOM
-    pattern: /\bVirtualDOM\b|\bVirtualDom\b/
+
+# Web Platform API
 
   - expected: Web Components
     patterns:
@@ -76,6 +76,19 @@ rules:
     pattern: /.js([.0-9]+)/
 
   - expected: TodoMVC
+
+#
+  - expected: Source Map
+    pattern:
+      - /Source Map/i
+      - /SourceMap/i
+    specs:
+      - from: 多段SourceMapに対応
+        to  : 多段Source Mapに対応
+
+  - expected: Virtual DOM
+    pattern: /\bVirtualDOM\b|\bVirtualDom\b/
+
 
 # Library
 
