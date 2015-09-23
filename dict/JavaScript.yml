@@ -62,7 +62,6 @@ rules:
         to:   pointer-events
 
 
-
   # ★Backbone.js 42.0.0★
   - expected: .js $1
     pattern: /.js([.0-9]+)/

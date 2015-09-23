@@ -33,3 +33,9 @@ rules:
     specs:
       - from: "今ままで`react`モジュールにあったAPIがそれぞれ以下のように移されています。"
         to: "今まで`react`モジュールにあったAPIがそれぞれ以下のように移されています。"
+
+  - expected: CoffeeScript
+    pattern:  CoffeScript
+    specs:
+      - from: CoffeScriptからES6
+        to:   CoffeeScriptからES6

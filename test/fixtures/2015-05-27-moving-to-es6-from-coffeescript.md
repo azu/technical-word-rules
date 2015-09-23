@@ -9,4 +9,4 @@ tags:
   - JavaScript
   - CoffeeScript
 ---
-CoffeScriptからES6への移行するにおいて文法の比較やES6の構文や機能の紹介
+CoffeeScriptからES6への移行するにおいて文法の比較やES6の構文や機能の紹介
