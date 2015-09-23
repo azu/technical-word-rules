@@ -24,12 +24,6 @@ rules:
       - from: ES6 classes
         to:   ES6 Classes
 
-  - expected: Browserify
-    pattern: /\bbroserify\b/
-
-  - expected: Browserify
-    pattern: /\bBrowserify\b/i
-
   - expected: Virtual DOM
     pattern: /\bVirtualDOM\b|\bVirtualDom\b/
 
@@ -49,3 +43,7 @@ rules:
   - expected: .js $1
     pattern: /.js([.0-9]+)/
 
+# Library
+
+  - expected: Browserify
+  - expected: Redux
