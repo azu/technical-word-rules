@@ -10,4 +10,4 @@ tags:
   - MSEdge
   - 仮想化
 ---
-MSEdgeが使えるWindows 10のVirtual machine(VM)が公開された
+MSEdgeが使えるWindows 10のVirtual Machine(VM)が公開された

@@ -15,3 +15,9 @@ rules:
 
   - expected: 行える
     pattern: 行得る
+
+  - expected: などが追加
+    pattern: など追加
+    specs:
+      - from: Class expressionやGeneratorのサポートなど追加されています。
+        to:   Class expressionやGeneratorのサポートなどが追加されています。
