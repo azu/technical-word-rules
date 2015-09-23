@@ -60,7 +60,10 @@ rules:
       # CSSの方はpointer-eventsとする
       - from: pointer-events
         to:   pointer-events
-
+  - expected: Web Audio API
+    pattern:
+      - /WebAudio API/i
+      - /Web Audio API/i
 
   # ★Backbone.js 42.0.0★
   - expected: .js $1
