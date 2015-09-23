@@ -27,3 +27,9 @@ rules:
 
   - expected: Arrow Function
     pattern: Array Function
+
+  - expected: 今まで
+    pattern: 今ままで
+    specs:
+      - from: "今ままで`react`モジュールにあったAPIがそれぞれ以下のように移されています。"
+        to: "今まで`react`モジュールにあったAPIがそれぞれ以下のように移されています。"
