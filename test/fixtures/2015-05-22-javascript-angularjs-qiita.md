@@ -12,5 +12,5 @@ tags:
   - tutorial
 ---
 AngularJS 2に移行しやすくするにはどうするかというチュートリアル。
-1.xでもES6 classesを使った書き方をするためのリファクタリング方法。
+1.xでもES6 Classesを使った書き方をするためのリファクタリング方法。
 Angular 2でのdirective、モジュール、関連ライブラリやツール、FAQなど

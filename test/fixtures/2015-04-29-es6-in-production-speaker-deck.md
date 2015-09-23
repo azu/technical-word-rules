@@ -10,4 +10,4 @@ tags:
   - ECMAScript
   - スライド
 ---
-ES6を使っていくためのスライド。 node_modules以下もBrowserify(Babelify)で変換するには、`global`オプションを利用する。ES6で書いたモジュールをES5から使えるように公開する方法、ES6 classesやBabelのlooseモードについてなど
+ES6を使っていくためのスライド。 node_modules以下もBrowserify(Babelify)で変換するには、`global`オプションを利用する。ES6で書いたモジュールをES5から使えるように公開する方法、ES6 ClassesやBabelのlooseモードについてなど

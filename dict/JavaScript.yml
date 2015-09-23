@@ -1,12 +1,28 @@
 version: 1
 rules:
-  # ★Backbone.js 42.0.0★
-  - expected: .js $1
-    pattern: /.js([.0-9]+)/
+
+# ECMAScript
 
   # ★ECMAScript6★ ☆ECMAScript 6☆
   - expected: ECMAScript $1
     pattern: /ECMAScript([0-9]+)/
+
+  - expected: Ecma標準
+    pattern: ECMA標準
+
+  - expected: ES.next
+    pattern:  ES next
+    options:
+      wordBoundary: true
+    specs:
+      - from: ES nextでは
+        to  : ES.nextでは
+
+  - expected: ES6 Classes
+    pattern: ES6 classes
+    specs:
+      - from: ES6 classes
+        to:   ES6 Classes
 
   - expected: Browserify
     pattern: /\bbroserify\b/
@@ -29,13 +45,7 @@ rules:
   - expected: HTML Imports
     pattern: /\bHTML Import\b/
 
-  - expected: Ecma標準
-    pattern: ECMA標準
+  # ★Backbone.js 42.0.0★
+  - expected: .js $1
+    pattern: /.js([.0-9]+)/
 
-  - expected: ES.next
-    pattern:  ES next
-    options:
-      wordBoundary: true
-    specs:
-      - from: ES nextでは
-        to  : ES.nextでは

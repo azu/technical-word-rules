@@ -14,5 +14,5 @@ relatedLinks:
   - title: matthewwithanm/react-controllables
     url: 'https://github.com/matthewwithanm/react-controllables'
 ---
-ReactでES6 classesを使ったComponentを作るスライド。
+ReactでES6 Classesを使ったComponentを作るスライド。
 Component内では常にstateじゃなくpropsを使いたい、FormのControlled Componentでもpropsを使うための高階関数について

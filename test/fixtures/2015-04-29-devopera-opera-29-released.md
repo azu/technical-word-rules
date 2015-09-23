@@ -10,4 +10,4 @@ tags:
   - ReleaseNote
 ---
 Opera 29 (based on Chromium 42) リリース。
-ES6 classes、object literalsの拡張サポート、Fetch APIがwindowコンテキストでも利用できるように、Web Audio APIの仕様追従など
+ES6 Classes、object literalsの拡張サポート、Fetch APIがwindowコンテキストでも利用できるように、Web Audio APIの仕様追従など
