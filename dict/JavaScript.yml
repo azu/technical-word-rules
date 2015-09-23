@@ -50,6 +50,17 @@ rules:
       - from: javascript
         to:   JavaScript
 
+  - expected: Pointer Events
+    patterns:
+      - pointer event
+      - pointer events
+    specs:
+      - from: MSEdgeの対応、pointer eventなど対応、
+        to:   MSEdgeの対応、Pointer Eventsなど対応、
+      # CSSの方はpointer-eventsとする
+      - from: pointer-events
+        to:   pointer-events
+
   # ★Backbone.js 42.0.0★
   - expected: .js $1
     pattern: /.js([.0-9]+)/
