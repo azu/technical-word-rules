@@ -61,12 +61,17 @@ rules:
       - from: pointer-events
         to:   pointer-events
 
+  #
+  - expected: Template strings
+
+
   # ★Backbone.js 42.0.0★
   - expected: .js $1
     pattern: /.js([.0-9]+)/
 
 # Library
 
+  - expected: jQuery
   - expected: Browserify
   - expected: Redux
   - expected: Underscore.js
