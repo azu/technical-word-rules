@@ -75,6 +75,8 @@ rules:
   - expected: .js $1
     pattern: /.js([.0-9]+)/
 
+  - expected: TodoMVC
+
 # Library
 
   - expected: jQuery
