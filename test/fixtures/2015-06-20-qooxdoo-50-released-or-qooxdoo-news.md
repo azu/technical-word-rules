@@ -11,4 +11,4 @@ tags:
   - library
 ---
 JavaScriptのRIAフレームワークであるqooxdoo 5.0リリース。
-qx.Website widgetsの追加、MSEdgeの対応、pointer eventなど対応、SVG、フルスクリーンAPIの対応、WebDriverを使ってテストの導入など
+qx.Website widgetsの追加、MSEdgeの対応、Pointer Eventsなど対応、SVG、フルスクリーンAPIの対応、WebDriverを使ってテストの導入など

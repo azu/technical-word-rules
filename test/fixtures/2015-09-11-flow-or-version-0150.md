@@ -10,4 +10,4 @@ tags:
   - ReleaseNote
 ---
 Flow 0.15.0リリース。
-Generatorのサポート、ワーカープロセス数の設定ができるよう、ES6 classesで`super()`を呼ぶ前に`this`に触るのをチェックできるようになるなど
+Generatorのサポート、ワーカープロセス数の設定ができるよう、ES6 Classesで`super()`を呼ぶ前に`this`に触るのをチェックできるようになるなど

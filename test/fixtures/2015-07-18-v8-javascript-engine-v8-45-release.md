@@ -11,4 +11,4 @@ tags:
   - ReleaseNote
 ---
 V8 4.5(Chrome 45)リリース。
-Array Function、Array/TypedArrayのメソッド追加、Object.assign、最適化コンパイラのTurboFan、V8 APIの変更など
+Arrow Function、Array/TypedArrayのメソッド追加、Object.assign、最適化コンパイラのTurboFan、V8 APIの変更など

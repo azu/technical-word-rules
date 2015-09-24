@@ -12,4 +12,4 @@ relatedLinks:
   - title: React.js v0.13 changes - blog.koba04.com
     url: 'http://blog.koba04.com/post/2015/03/05/react-js-v013-changes/'
 ---
-React 0.13リリース。 ES6 classesの対応、React Toolsで`--target es3`の追加など
+React 0.13リリース。 ES6 Classesの対応、React Toolsで`--target es3`の追加など

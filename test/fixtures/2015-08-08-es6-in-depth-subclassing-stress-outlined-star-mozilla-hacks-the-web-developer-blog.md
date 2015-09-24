@@ -9,5 +9,5 @@ tags:
   - JavaScript
   - ECMAScript
 ---
-ES6 classesのサブクラスについて。
+ES6 Classesのサブクラスについて。
 サブクラスの使い方、`super`、ビルトインクラスのサブクラス、継承したクラスのConstructorの書き方、`new.target`について

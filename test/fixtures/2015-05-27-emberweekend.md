@@ -10,4 +10,4 @@ tags:
   - library
   - podcast
 ---
-EmberJSについてのpodcast
+Ember.jsについてのpodcast

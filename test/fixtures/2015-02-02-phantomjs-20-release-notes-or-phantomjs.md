@@ -9,4 +9,4 @@ tags:
   - browser
   - ReleaseNote
 ---
-ヘッドレスブラウザのPhantomJS 2.0リリース。 QtとWebkitのアップデート、CoffeeScriptのデフォルトサポートを廃止
+ヘッドレスブラウザのPhantomJS 2.0リリース。 QtとWebKitのアップデート、CoffeeScriptのデフォルトサポートを廃止

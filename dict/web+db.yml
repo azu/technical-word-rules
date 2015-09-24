@@ -1,3 +1,6 @@
+# WEB+DB PRESS編集部で使っている用語統一ファイルの専門用語部分
+# https://gist.github.com/inao/f55e8232e150aee918b9
+# 一部、組版向けの記法は取り除いてる
 version: 1
 rules:
   - expected: Cookie

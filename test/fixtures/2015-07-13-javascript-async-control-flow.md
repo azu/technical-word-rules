@@ -9,5 +9,5 @@ tags:
   - JavaScript
   - ECMAScript
 ---
-ES nextのasyn/awaitについて。
+ES.nextのasyn/awaitについて。
 またこれと似た事はtask.jsやcoを使うことで今すぐできるという話

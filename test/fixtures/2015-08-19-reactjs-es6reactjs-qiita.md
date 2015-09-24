@@ -13,4 +13,4 @@ relatedLinks:
   - title: 'チュートリアル | React'
     url: 'http://facebook.github.io/react/docs/tutorial-ja-JP.html'
 ---
-ReactのチュートリアルをES6 classesなどを使って書いた場合にどうなるかについてをチュートリアル形式で書かれている。
+ReactのチュートリアルをES6 Classesなどを使って書いた場合にどうなるかについてをチュートリアル形式で書かれている。

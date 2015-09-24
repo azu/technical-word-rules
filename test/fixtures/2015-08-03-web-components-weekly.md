@@ -9,4 +9,4 @@ tags:
   - WebComponents
   - mail
 ---
-WebComponentsについてのWeeklyメールマガジン
+Web ComponentsについてのWeeklyメールマガジン

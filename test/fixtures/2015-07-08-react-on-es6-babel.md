@@ -10,5 +10,5 @@ tags:
   - babel
   - React
 ---
-Reactを題材にしたES6やES nextについての機能紹介。
+Reactを題材にしたES6やES.nextについての機能紹介。
 具体的にES5で書いたものがどう変わるかをReactを例にして解説してる。

@@ -10,4 +10,4 @@ tags:
   - ReleaseNote
 ---
 Windows 10 Technical Previewのアップデート。
-WAI-ARIA Landmark Roles、Web Audio API、Touch Event、Fullscreen APIなどのサポート
+WAI-ARIA Landmark Roles、Web Audio API、Touch Events、Fullscreen APIなどのサポート

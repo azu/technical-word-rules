@@ -11,4 +11,4 @@ tags:
   - ReleaseNote
 ---
 JavaScriptをCoffeeScriptに変換するJs2coffee 2.0リリース。
-エディタや警告の表示、ASTの表示、SourceMap対応など
+エディタや警告の表示、ASTの表示、Source Map対応など

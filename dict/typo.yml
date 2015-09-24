@@ -1,13 +1,60 @@
 version: 1
 rules:
-  - expected: Foundation  Fundation
-    pattern: /\bFoundation  Fundation\b/i
+# 明らかなtypoを収録
+  - expected: Foundation
+    patterns: Fundation
+    options:
+      wordBoundary: true
+    specs:
+      - from: Fundation
+        to:   Foundation
 
   - expected: ライブラリ
     pattern: ライブライ
 
   - expected: Chromium
-    pattern: /\bChronium\b/
+    pattern: Chronium
+    options:
+      wordBoundary: true
 
   - expected: リリース
     pattern: リリーう
+
+  - expected: Property
+    pattern: /propety/i
+    specs:
+      - from: propety
+        to:   Property
+
+  - expected: Arrow Function
+    pattern: Array Function
+
+  - expected: 今まで
+    pattern: 今ままで
+    specs:
+      - from: "今ままで`react`モジュールにあったAPIがそれぞれ以下のように移されています。"
+        to: "今まで`react`モジュールにあったAPIがそれぞれ以下のように移されています。"
+
+  - expected: CoffeeScript
+    pattern:  CoffeScript
+    specs:
+      - from: CoffeScriptからES6
+        to:   CoffeeScriptからES6
+
+  - expected: 対処法
+    pattern: 対処方
+
+  - expected: 行える
+    pattern: 行得る
+
+  - expected: Performance
+    patterns: /peformance/i
+    specs:
+      - from: ブラウザ上でどうやって計測するかやPeformance Timelineなどの仕様について
+        to  : ブラウザ上でどうやって計測するかやPerformance Timelineなどの仕様について
+
+  - expected: Workaround
+    patterns: Workaound
+    specs:
+      - from: iOS7と8のquerySelectorバグの対処(Workaound)
+        to:  iOS7と8のquerySelectorバグの対処(Workaround)

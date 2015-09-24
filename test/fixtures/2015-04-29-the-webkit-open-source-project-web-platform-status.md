@@ -10,4 +10,4 @@ tags:
   - JavaScript
   - まとめ
 ---
-WebkitのStatusダッシュボード。 新しい機能等の実装状況について書かれてる。
+WebKitのStatusダッシュボード。 新しい機能等の実装状況について書かれてる。

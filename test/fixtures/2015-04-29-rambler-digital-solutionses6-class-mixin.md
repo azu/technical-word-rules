@@ -9,5 +9,5 @@ tags:
   - JavaScript
   - library
 ---
-ES6 classesでのmixinを行うライブラリ。
+ES6 Classesでのmixinを行うライブラリ。
 `class Input extends mixin(BaseClass. mixin) {}` という感じでBaseClassを拡張したクラスをその場で作成する

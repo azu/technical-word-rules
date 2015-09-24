@@ -1,12 +1,19 @@
+# その他の固有名詞、組織名、サイト名など
 version: 1
 rules:
-  - expected: Ecma標準
-    pattern: ECMA標準
-
-  - expected: ES.next
-    pattern:  ES next
-    options:
-      wordBoundary: true
+  - expected: Leanpub
+  # O'reilly でもいいけど、小文字だけはダメにしておく
+  - expected: Oreilly
+  - expected: Sauce Labs
+    patterns:
+      - SauceLabs
+  - expected: Travis CI
+    patterns:
+      - /TravisCI/i
+  - expected: HTML5 Rocks
+    patterns:
+      - /HTML5Rocks/i
+      - /HTML5Rock/i
     specs:
-      - from: ES nextでは
-        to  : ES.nextでは
+      - from: HTML5Rockに現在公開されている翻訳記事のまとめ
+        to  : HTML5 Rocksに現在公開されている翻訳記事のまとめ

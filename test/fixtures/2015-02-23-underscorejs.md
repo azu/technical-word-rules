@@ -12,7 +12,7 @@ relatedLinks:
   - title: 'Discuss latest changes to master before releasing · Issue #2061 · jashkenas/underscore'
     url: 'https://github.com/jashkenas/underscore/issues/2061'
 ---
-underscore.js 1.8.0(現在1.8.2まで出てる)リリース。
+Underscore.js 1.8.0(現在1.8.2まで出てる)リリース。
 ファイルサイズの削減、エイリアスとして使われていたメソッド名を一部変更、削除などのBreaking Changeを含んでいる。
 詳しくは下記のIssueを参照。
 1.8.0はIE8の互換性がないので、1.8.1と1.8.2で互換性の修正が行われている。

@@ -8,4 +8,4 @@ date: '2015-09-13T04:17:52+00:00'
 tags:
   - ECMAScript
 ---
-ES5で追加されたPropety Descriptorや追加されたメソッドについて
+ES5で追加されたProperty Descriptorや追加されたメソッドについて
