@@ -54,8 +54,8 @@ rules:
 
   - expected: Pointer Events
     patterns:
-      - pointer event
-      - pointer events
+      - /pointer event/i
+      - /pointer events/i
     specs:
       - from: MSEdgeの対応、pointer eventなど対応、
         to:   MSEdgeの対応、Pointer Eventsなど対応、
