@@ -8,7 +8,7 @@ rules:
     pattern: /ECMAScript([0-9]+)/
 
   - expected: Ecma標準
-    pattern: ECMA標準
+    patterns: ECMA標準
 
   - expected: ES.next
     pattern:  ES next
@@ -19,7 +19,6 @@ rules:
         to  : ES.nextでは
 
   - expected: ES6 Classes
-    pattern: ES6 classes
     specs:
       - from: ES6 classes
         to:   ES6 Classes
