@@ -64,7 +64,8 @@ rules:
         to:   pointer-events
   - expected: Touch Events
     patterns:
-      - Touch Event
+      - /Touch Event/i
+      - /Touch Events/i
     specs:
       - from: Touch Event、Fullscreen APIなどのサポートなど
         to:   Touch Events、Fullscreen APIなどのサポートなど
