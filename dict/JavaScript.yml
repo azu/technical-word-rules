@@ -70,6 +70,9 @@ rules:
     pattern:
       - /WebAudio API/i
       - /Web Audio API/i
+  # Service Workerの機能についての言及
+  # 仕様についてはService Workers、InterfaceについてはServiceWorker
+  - expected: Service Worker
 
   # ★Backbone.js 42.0.0★
   - expected: .js $1
