@@ -46,6 +46,8 @@ rules:
     pattern: /\bHTML Import\b/
 
   - expected: JavaScript
+    options:
+      wordBoundary: true
     specs:
       - from: javascript
         to:   JavaScript
@@ -67,12 +69,20 @@ rules:
       - from: Touch Event、Fullscreen APIなどのサポートなど
         to:   Touch Events、Fullscreen APIなどのサポートなど
   - expected: Web Audio API
-    pattern:
+    patterns:
       - /WebAudio API/i
       - /Web Audio API/i
   # Service Workerの機能についての言及
   # 仕様についてはService Workers、InterfaceについてはServiceWorker
   - expected: Service Worker
+  # 仕様はTemplateStringsだが、一般的にはTemplate Stringsがよく使われる
+  # http://www.ecma-international.org/ecma-262/6.0/#sec-static-semantics-templatestrings
+  - expected: Template Strings
+    patterns:
+      - /Template Strings/i
+      - /TemplateStrings/i
+
+# その他
 
   # ★Backbone.js 42.0.0★
   - expected: .js $1
