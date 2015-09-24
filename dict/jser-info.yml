@@ -1,3 +1,4 @@
+# JSer.info 特有の表現統一なので少し厳し目に
 version: 1
 rules:
   - expected: $1発売

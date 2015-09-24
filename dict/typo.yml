@@ -1,5 +1,6 @@
 version: 1
 rules:
+# 明らかなtypoを収録
   - expected: Foundation
     patterns: Fundation
     options:
