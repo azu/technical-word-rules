@@ -15,7 +15,7 @@ git config user.name ${GIT_NAME}
 git config user.email ${GIT_EMAIL}
 
 # Git
-git checkout -b gh-pages
+git checkout --orphan gh-pages
 lastCommit=$(git log --oneline | head -n 1)
 
 echo "=STATUS="
