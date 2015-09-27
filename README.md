@@ -55,7 +55,7 @@ rules:
 ## Installation
 
 ```
-npm install technical-word-rules
+npm install azu/technical-word-rules
 ```
 
 
