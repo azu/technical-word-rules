@@ -25,6 +25,9 @@ rules:
 
   - expected: O/Rマッ
     pattern: /ORマッ|O-Rマッ/
+    specs:
+      - from: "ORマッパ"
+        to:   "O/Rマッパ"
 
   - expected: O/Rマッパ
     pattern: /O\/Rマッパー|\bORM\b/
