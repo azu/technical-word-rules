@@ -31,5 +31,5 @@ git commit -m "Travis build $TRAVIS_BUILD_NUMBER"
 echo "=PUSH STATUS="
 git status
 git push --force --quiet "$REPO_URL" gh-pages > /dev/null 2>&1
-# back
-git checkout -
+# back to master
+git checkout master
