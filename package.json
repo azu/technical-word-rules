@@ -8,7 +8,6 @@
   },
   "main": "all.json",
   "scripts": {
-    "install": "node install-hook.js",
     "build": "gulp build",
     "test": "npm run textlint && npm run textlint:failure",
     "textlint": "textlint ./test/fixtures/",
