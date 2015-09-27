@@ -79,6 +79,10 @@ var json = require("technical-word-rules");
 既存のルールでパス済みのJSer.infoの記事に対してテストが実行されます。
 記事がおかしい場合は[test/fixtures](test/fixtures)も併せて修正します。
 
+## semantic-release
+
+This module is released by [semantic-release/semantic-release](https://github.com/semantic-release/semantic-release "semantic-release/semantic-release").
+
 ## Contributing
 
 1. Fork it!
