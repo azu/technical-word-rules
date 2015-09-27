@@ -33,3 +33,4 @@ git status
 git push --force --quiet "$REPO_URL" gh-pages > /dev/null 2>&1
 # back to master
 git checkout master
+git branch -d gh-pages
