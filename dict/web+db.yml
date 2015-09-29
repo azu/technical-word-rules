@@ -1246,9 +1246,26 @@ rules:
   - expected: XML Schema
     pattern: /\bXML Schema\b/i
 
-  # ☆yahoo.com☆
+  # Yahoo Mailという書き方は許可する
+  # http://yahooeng.tumblr.com/post/115664629471/automated-testing-in-yahoo-mail
   - expected: "Yahoo!$1"
-    pattern: /YAHOO\!([^!.])|\bYahoo\b([^!.])|\bYAHOO\b([^!.])|ヤフー([^!.])/
+    patterns:
+      - /\bYAHOO\b([^!.])/
+    specs:
+      - from: Yahoo Mail
+        to:   Yahoo Mail
+      - from: yahoo.com
+        to:   yahoo.com
+  # 日本語は!を必須にする
+  - expected: "Yahoo!$1"
+    patterns:
+      - /ヤフー([^!.])/
+    specs:
+      - from: Yahoo Mail
+        to:   Yahoo Mail
+      - from: ヤフーメール
+        to:   Yahoo!メール
+
 
   - expected: "Yahoo!ウィジェット"
     pattern: /\bYahooWidget\b|Yahoo\!Widget|Yahoo\! Widget|\bYahooGadget\b|Yahoo\!Gadget|Yahoo\! Gadget/
