@@ -10,3 +10,5 @@ rules:
     specs:
       - from: CSS Fluxboxでは
         to  : CSS Flexboxでは
+
+  - expected: PostCSS
