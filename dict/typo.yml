@@ -64,4 +64,4 @@ rules:
       - /Custome\b/i
     specs:
       - from: WebVRをCustome Elementのタグを書くだけで出来るライブラリ
-      - to: WebVRをCustom Elementのタグを書くだけで出来るライブラリ
+        to: WebVRをCustom Elementのタグを書くだけで出来るライブラリ
