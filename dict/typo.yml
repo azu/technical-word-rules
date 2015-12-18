@@ -58,3 +58,10 @@ rules:
     specs:
       - from: iOS7と8のquerySelectorバグの対処(Workaound)
         to:  iOS7と8のquerySelectorバグの対処(Workaround)
+
+  - expected: Custom
+    patterns: 
+      - /Custome\b/i
+    specs:
+      - from: WebVRをCustome Elementのタグを書くだけで出来るライブラリ
+      - to: WebVRをCustom Elementのタグを書くだけで出来るライブラリ
