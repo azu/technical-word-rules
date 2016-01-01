@@ -1,6 +1,8 @@
-# WEB+DB PRESS編集部で使っている用語統一ファイルの専門用語部分
-# https://gist.github.com/inao/f55e8232e150aee918b9
-# 一部、組版向けの記法は取り除いてる
+# WEB+DB PRESS用語統一ファイルをよりゆるやかにした辞書
+# 削除: 他のルールと衝突しやすいもの、組版向け記号、全角記号に関するもの
+# WEB+DB PRESS用語統一ルール( https://gist.github.com/inao/f55e8232e150aee918b9 )に沿ったものを使いたい場合は以下のルールを使用してください
+# https://github.com/azu/textlint-rule-web-plus-db
+
 version: 1
 rules:
   - expected: Cookie
@@ -64,9 +66,6 @@ rules:
 
   - expected: インスパイア
     pattern: インスパイヤ
-
-  - expected: インタフェース
-    pattern: /インタフェイス|インターフェイス|インターフェース|インターフェィス/
 
   - expected: インタプリタ
     pattern: /インタープリタ|インタプリター|インタープリター/
