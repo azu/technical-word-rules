@@ -27,16 +27,15 @@
   "bugs": {
     "url": "https://github.com/azu/technical-word-rules/issues"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "wzeditor-word-rules-parser": "^1.1.0",
     "event-stream": "^3.1.7",
     "gulp": "^3.8.8",
     "gulp-concat": "^2.4.1",
-    "prh": "^0.6.0",
-    "textlint": "^3.4.0",
-    "textlint-rule-prh": "^1.0.3",
-    "semantic-release": "^4.3.5"
+    "prh": "^0.9.0",
+    "semantic-release": "^4.3.5",
+    "textlint": "^5.1.2",
+    "textlint-rule-prh": "^2.2.1",
+    "wzeditor-word-rules-parser": "^1.1.0"
   }
 }
