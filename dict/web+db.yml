@@ -1491,34 +1491,34 @@ rules:
     pattern: /([0-9])x([0-9])/
 
   - expected: （10）
-    pattern: /\(10\)|10．/
+    pattern: /⑩|10．/
 
   - expected: （1）
-    pattern: /\(1\)|①|1．/
+    pattern: /①|1．/
 
   - expected: （2）
-    pattern: /\(2\)|②|2．/
+    pattern: /②|2．/
 
   - expected: （3）
-    pattern: /\(3\)|③|3．/
+    pattern: /③|3．/
 
   - expected: （4）
-    pattern: /\(4\)|④|4．/
+    pattern: /④|4．/
 
   - expected: （5）
-    pattern: /\(5\)|⑤|5．/
+    pattern: /⑤|5．/
 
   - expected: （6）
-    pattern: /\(6\)|⑥|6．/
+    pattern: /⑥|6．/
 
   - expected: （7）
-    pattern: /\(7\)|⑦|7．/
+    pattern: /⑦|7．/
 
   - expected: （8）
-    pattern: /\(8\)|⑧|8．/
+    pattern: /⑧|8．/
 
   - expected: （9）
-    pattern: /\(9\)|⑨|9．/
+    pattern: /⑨|9．/
 
   - expected: IV
     pattern: Ⅳ
