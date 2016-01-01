@@ -1,6 +1,8 @@
-# WEB+DB PRESS編集部で使っている用語統一ファイルの専門用語部分
-# https://gist.github.com/inao/f55e8232e150aee918b9
-# 一部、組版向けの記法は取り除いてる
+# WEB+DB PRESS用語統一ファイルをよりゆるやかにした辞書
+# 削除: 他のルールと衝突しやすいもの、組版向け記号、全角記号に関するもの
+# WEB+DB PRESS用語統一ルール( https://gist.github.com/inao/f55e8232e150aee918b9 )に沿ったものを使いたい場合は以下のルールを使用してください
+# https://github.com/azu/textlint-rule-web-plus-db
+
 version: 1
 rules:
   - expected: Cookie
@@ -64,9 +66,6 @@ rules:
 
   - expected: インスパイア
     pattern: インスパイヤ
-
-  - expected: インタフェース
-    pattern: /インタフェイス|インターフェイス|インターフェース|インターフェィス/
 
   - expected: インタプリタ
     pattern: /インタープリタ|インタプリター|インタープリター/
@@ -955,9 +954,6 @@ rules:
   - expected: OS
     pattern: オペレーティングシステム
 
-  - expected: parallel
-    pattern: /\bpararllel\b/
-
   - expected: PC
     pattern: パソコン
 
@@ -1399,6 +1395,9 @@ rules:
   - expected: セッションオブジェクト
     pattern: Sessionオブジェクト
 
+  - expected: インタフェース
+    pattern: /インタフェイス|インターフェイス|インターフェース|インターフェィス/
+
   - expected: リモートインタフェース
     pattern: Remoteインタフェース
 
@@ -1452,14 +1451,6 @@ rules:
   - expected: "??"
     pattern: ？？
 
-  # ])\!$	,,RE<★食べる!(改行)★☆make!(改行)☆
-  - expected: $1！
-    pattern: /\(\[\^a-zA-Z\!\\/
-
-  # ])\?$	,,RE<★食べる?(改行)★☆make?(改行)☆
-  - expected: $1？
-    pattern: /\(\[\^a-zA-Z\!\\/
-
   # ★！？あ★●「行末ではない」という指定が無理みたい●
   - expected: "!? $1"
     pattern: /！？([^\n\s「」『』（）［］])/
@@ -1488,10 +1479,6 @@ rules:
   - expected: ！ $1
     pattern: /！([^\n\s「」『』（）［］])/
 
-  # 全アキを半アキ2つに。★？　あ★
-  - expected: ？
-    pattern: ？
-
   # ★？あ★
   - expected: ？ $1
     pattern: /？([^\n\s「」『』（）［］★])/
@@ -1501,74 +1488,34 @@ rules:
     pattern: /([0-9])x([0-9])/
 
   - expected: （10）
-    pattern: /\(10\)|10．/
+    pattern: /⑩|10．/
 
   - expected: （1）
-    pattern: /\(1\)|①|1．/
+    pattern: /①|1．/
 
   - expected: （2）
-    pattern: /\(2\)|②|2．/
+    pattern: /②|2．/
 
   - expected: （3）
-    pattern: /\(3\)|③|3．/
+    pattern: /③|3．/
 
   - expected: （4）
-    pattern: /\(4\)|④|4．/
+    pattern: /④|4．/
 
   - expected: （5）
-    pattern: /\(5\)|⑤|5．/
+    pattern: /⑤|5．/
 
   - expected: （6）
-    pattern: /\(6\)|⑥|6．/
+    pattern: /⑥|6．/
 
   - expected: （7）
-    pattern: /\(7\)|⑦|7．/
+    pattern: /⑦|7．/
 
   - expected: （8）
-    pattern: /\(8\)|⑧|8．/
+    pattern: /⑧|8．/
 
   - expected: （9）
-    pattern: /\(9\)|⑨|9．/
-
-  # ★[10]★
-  - expected: ［10］
-    pattern: /\[10\]/
-
-  # ★[1]★
-  - expected: ［1］
-    pattern: /\[1\]/
-
-  # ★[2]★
-  - expected: ［2］
-    pattern: /\[2\]/
-
-  # ★[3]★
-  - expected: ［3］
-    pattern: /\[3\]/
-
-  # ★[4]★
-  - expected: ［4］
-    pattern: /\[4\]/
-
-  # ★[5]★
-  - expected: ［5］
-    pattern: /\[5\]/
-
-  # ★[6]★
-  - expected: ［6］
-    pattern: /\[6\]/
-
-  # ★[7]★
-  - expected: ［7］
-    pattern: /\[7\]/
-
-  # ★[8]★
-  - expected: ［8］
-    pattern: /\[8\]/
-
-  # ★[9]★
-  - expected: ［9］
-    pattern: /\[9\]/
+    pattern: /⑨|9．/
 
   - expected: IV
     pattern: Ⅳ
@@ -1611,6 +1558,7 @@ rules:
   - expected: （
     pattern: /．（|。（/
 
+  # 。は括弧の内側に
   - expected: ）。
     pattern: 。）
 
@@ -1672,12 +1620,3 @@ rules:
   # ★1HZ★十HZ★
   - expected: $1Hz
     pattern: /([\d十百千万])\bhz\b|([\d十百千万])\bHZ\b/
-
-  - expected: try/catch
-    pattern: /try\.\.\.catch/
-
-  - expected: for/in
-    pattern: /for\.\.\.in/
-
-  - expected: for/of
-    pattern: /for\.\.\.of/
