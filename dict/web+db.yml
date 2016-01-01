@@ -1398,6 +1398,9 @@ rules:
   - expected: セッションオブジェクト
     pattern: Sessionオブジェクト
 
+  - expected: インタフェース
+    pattern: /インタフェイス|インターフェイス|インターフェース|インターフェィス/
+
   - expected: リモートインタフェース
     pattern: Remoteインタフェース
 
@@ -1451,14 +1454,6 @@ rules:
   - expected: "??"
     pattern: ？？
 
-  # ])\!$	,,RE<★食べる!(改行)★☆make!(改行)☆
-  - expected: $1！
-    pattern: /\(\[\^a-zA-Z\!\\/
-
-  # ])\?$	,,RE<★食べる?(改行)★☆make?(改行)☆
-  - expected: $1？
-    pattern: /\(\[\^a-zA-Z\!\\/
-
   # ★！？あ★●「行末ではない」という指定が無理みたい●
   - expected: "!? $1"
     pattern: /！？([^\n\s「」『』（）［］])/
@@ -1486,10 +1481,6 @@ rules:
   # ★！あ★
   - expected: ！ $1
     pattern: /！([^\n\s「」『』（）［］])/
-
-  # 全アキを半アキ2つに。★？　あ★
-  - expected: ？
-    pattern: ？
 
   # ★？あ★
   - expected: ？ $1
@@ -1610,6 +1601,7 @@ rules:
   - expected: （
     pattern: /．（|。（/
 
+  # 。は括弧の内側に
   - expected: ）。
     pattern: 。）
 
