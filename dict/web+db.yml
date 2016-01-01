@@ -1520,46 +1520,6 @@ rules:
   - expected: （9）
     pattern: /\(9\)|⑨|9．/
 
-  # ★[10]★
-  - expected: ［10］
-    pattern: /\[10\]/
-
-  # ★[1]★
-  - expected: ［1］
-    pattern: /\[1\]/
-
-  # ★[2]★
-  - expected: ［2］
-    pattern: /\[2\]/
-
-  # ★[3]★
-  - expected: ［3］
-    pattern: /\[3\]/
-
-  # ★[4]★
-  - expected: ［4］
-    pattern: /\[4\]/
-
-  # ★[5]★
-  - expected: ［5］
-    pattern: /\[5\]/
-
-  # ★[6]★
-  - expected: ［6］
-    pattern: /\[6\]/
-
-  # ★[7]★
-  - expected: ［7］
-    pattern: /\[7\]/
-
-  # ★[8]★
-  - expected: ［8］
-    pattern: /\[8\]/
-
-  # ★[9]★
-  - expected: ［9］
-    pattern: /\[9\]/
-
   - expected: IV
     pattern: Ⅳ
 
