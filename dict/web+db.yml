@@ -954,9 +954,6 @@ rules:
   - expected: OS
     pattern: オペレーティングシステム
 
-  - expected: parallel
-    pattern: /\bpararllel\b/
-
   - expected: PC
     pattern: パソコン
 
