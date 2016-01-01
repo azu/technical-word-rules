@@ -28,9 +28,9 @@
     "url": "https://github.com/azu/technical-word-rules/issues"
   },
   "dependencies": {
-    "wzeditor-word-rules-parser": "^1.1.0"
   },
   "devDependencies": {
+    "wzeditor-word-rules-parser": "^1.1.0",
     "event-stream": "^3.1.7",
     "gulp": "^3.8.8",
     "gulp-concat": "^2.4.1",
