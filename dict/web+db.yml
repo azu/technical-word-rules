@@ -1663,12 +1663,3 @@ rules:
   # ★1HZ★十HZ★
   - expected: $1Hz
     pattern: /([\d十百千万])\bhz\b|([\d十百千万])\bHZ\b/
-
-  - expected: try/catch
-    pattern: /try\.\.\.catch/
-
-  - expected: for/in
-    pattern: /for\.\.\.in/
-
-  - expected: for/of
-    pattern: /for\.\.\.of/
