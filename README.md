@@ -3,13 +3,13 @@
 [WEB+DB PRESS用語統一ルール](https://gist.github.com/inao/f55e8232e150aee918b9 " WEB+DB PRESS用語統一ルール secret")をベースに、
 JavaScript関係や[JSer.info](http://jser.info)で使用する技術用語などの表記揺れ補正辞書とコンパイル済みJSONです。
 
-- [azu/codemirror-spellckecker](https://github.com/azu/codemirror-spellckecker "azu/codemirror-spellckecker")
-
-などと一緒に使うことを目的にしています。
-
 [textlint](https://github.com/azu/textlint)から使う場合は以下のルールを使うことで利用できます。
 
 - [azu/textlint-rule-spellcheck-tech-word](https://github.com/azu/textlint-rule-spellcheck-tech-word "azu/textlint-rule-spellcheck-tech-word")
+
+CodeMirrorで利用する場合は以下のライブラリから利用できます。
+
+- [azu/codemirror-spellckecker](https://github.com/azu/codemirror-spellckecker "azu/codemirror-spellckecker")
 
 ## 辞書の書式
 
@@ -70,6 +70,13 @@ var json = require("technical-word-rules");
 
 - [textlintで日本語の文章をチェックする | Web Scratch](http://efcl.info/2015/09/10/introduce-textlint/ "textlintで日本語の文章をチェックする | Web Scratch")
 - [textlint + prhで表記ゆれを検出する | Web Scratch](http://efcl.info/2015/09/14/textlint-rule-prh/ "textlint + prhで表記ゆれを検出する | Web Scratch")
+
+## 関連
+
+- [azu/textlint-rule-web-plus-db](https://github.com/azu/textlint-rule-web-plus-db "azu/textlint-rule-web-plus-db")
+
+[WEB+DB PRESS用語統一ルール](https://gist.github.com/inao/f55e8232e150aee918b9 " WEB+DB PRESS用語統一ルール secret")をより厳密に従いたい場合はこちらを利用してください。
+
 
 ## Testing
 
