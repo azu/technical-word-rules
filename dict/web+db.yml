@@ -645,9 +645,6 @@ rules:
   - expected: DBFlute
     pattern: /\bDBFlute\b/i
 
-  - expected: Debian GNU/Linux
-    pattern: /\bDebian\b|Debian\/GNU Linux/
-
   # ☆dena.jp☆
   - expected: $1DeNA$2
     pattern: /(?:([^\/.])ディー・エヌ・エー)|(?:ディー・エヌ・エー([^\/.]))/
