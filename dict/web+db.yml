@@ -838,9 +838,6 @@ rules:
   - expected: Javadoc
     pattern: /\bJavadoc\b/i
 
-  - expected: JavaScript
-    pattern: /\bJava Script\b|\bJavascript\b|\bjavascript\b/
-
   # ★JavaScript1★
   - expected: JavaScript $1
     pattern: /JavaScript([0-9])/
