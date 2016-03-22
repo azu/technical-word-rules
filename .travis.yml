@@ -6,7 +6,7 @@ cache:
 notifications:
   email: false
 node_js:
-  - "stable"
+  - '4'
 before_install:
   - npm i -g npm@^2.0.0
 before_script:
@@ -20,3 +20,6 @@ after_success:
 env:
   global:
     secure: I8ITlDEatDBQe/sRMAstecQt7R1q3pkSc9mtiJylH8N0heaC0WhmgELk4kT03j68/5emFOAeg12NZsquSkt9aiBmapDV9utQMu5NooC4rGgK+p0keal22w4iLP/PIO7frcioBvoR1xdtVZbymtf2ptBc8BKTJOPScX+uj6SlU6w=
+branches:
+  except:
+    - "/^v\\d+\\.\\d+\\.\\d+$/"
