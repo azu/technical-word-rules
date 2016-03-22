@@ -126,9 +126,6 @@ rules:
     pattern: キャラクター
 
   - expected: $1キャッシュ$2
-    pattern: /(?:([^a-zA-Z\s\-])\bcache)|(?:cache\b([^a-zA-Z\s\-]))/
-
-  - expected: $1キャッシュ$2
     pattern: /(?:([^a-zA-Z\s\-])\bCache)|(?:Cache\b([^a-zA-Z\s\-]))/
 
   - expected: クエリ文字列
@@ -322,9 +319,6 @@ rules:
   - expected: パターン
     pattern: パタン
 
-  - expected: ハッシュ
-    pattern: /\bhash\b|\bHash\b/
-
   - expected: バラ
     pattern: 薔薇
 
@@ -416,12 +410,6 @@ rules:
 
   - expected: プロキシ
     pattern: /プロクシ|プロクシー|プロキシー/
-
-  - expected: $1ブログ$2
-    pattern: /(?:([^\/])\bblog)|(?:blog\b([^\/]))/
-
-  - expected: $1ブログ$2
-    pattern: /(?:([^\/])\bBlog)|(?:Blog\b([^\/]))/
 
   - expected: プログラマ
     pattern: プログラマー
@@ -757,10 +745,6 @@ rules:
   # ★HTML4★
   - expected: HTML $1
     pattern: /HTML([0-4])/
-
-  # ★HTTP1★
-  - expected: HTTP $1
-    pattern: /HTTP([0-9])/
 
   # ☆Socket.io☆
   - expected: $1I/O
