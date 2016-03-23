@@ -125,9 +125,6 @@ rules:
   - expected: キャラクタ
     pattern: キャラクター
 
-  - expected: $1キャッシュ$2
-    pattern: /(?:([^a-zA-Z\s\-])\bCache)|(?:Cache\b([^a-zA-Z\s\-]))/
-
   - expected: クエリ文字列
     pattern: /\bQueryString\b|\bQuery String\b|クエリストリング|クエリーストリング/
 
