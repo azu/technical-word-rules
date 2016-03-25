@@ -52,6 +52,14 @@ rules:
       - from: javascript
         to:   JavaScript
 
+  - expected: JavaScript
+    pattern: /\bJava Script\b/i
+    specs:
+      - from: java script
+        to:   JavaScript
+      - from: Java script
+        to:   JavaScript
+
   - expected: Pointer Events
     patterns:
       - /pointer event/i
