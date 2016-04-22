@@ -478,6 +478,9 @@ rules:
 
   - expected: ユーザ
     pattern: ユーザー
+    specs:
+      - from: ユーザーは
+        to  : ユーザは
 
   - expected: ユーティリティ
     pattern: ユーティリティー
