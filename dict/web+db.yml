@@ -243,7 +243,12 @@ rules:
     pattern: ツリー・エントリ
 
   - expected: ディレクター
-    pattern: ディレクタ
+    pattern: /ディレクタ(?!ー)/
+    specs:
+      - from: ディレクタ
+        to:   ディレクター
+      - from: ディレクター
+        to:   ディレクター
 
   - expected: データサービス
     pattern: /\bData Services\b/
@@ -397,7 +402,12 @@ rules:
     pattern: フィクスチャー
 
   - expected: フェイルオーバー
-    pattern: /フェイルオーバ|フェールオーバー|フェールオーバ/
+    pattern: /フェイルオーバ(?!ー)|フェールオーバー|フェールオーバ/
+    specs:
+      - from: フェイルオーバ
+        to:   フェイルオーバー
+      - from: フェイルオーバー
+        to:   フェイルオーバー
 
   - expected: フェーズ
     pattern: フェイズ
@@ -421,7 +431,12 @@ rules:
     pattern: プロバイダー
 
   - expected: ベンダー
-    pattern: ベンダ
+    pattern: /ベンダ(?!ー)/
+    specs:
+      - from: ベンダ
+        to:   ベンダー
+      - from: ベンダー
+        to:   ベンダー
 
   - expected: ヘッダ
     pattern: /ヘッダー|ヘッタ|ヘッター/
@@ -448,7 +463,12 @@ rules:
     pattern: マネージメント
 
   - expected: メーカー
-    pattern: メーカ
+    pattern: /メーカ(?!ー)/
+    specs:
+      - from: メーカ
+        to:   メーカー
+      - from: メーカー
+        to:   メーカー
 
   - expected: メーリングリスト
     pattern: /\bML\b/
@@ -1404,14 +1424,6 @@ rules:
   # ダーシ、ダーシとケイ混在
   - expected: ──
     pattern: /――|─―|―─/
-
-  # 1本のダーシとケイをケイ2本に。★つまり─、★☆つまり──、☆
-  - expected: $1──$2
-    pattern: /(?:([^―|─])―)|(?:―([^―|─]))/
-
-  # 1本のダーシとケイをケイ2本に。★つまり─、★☆つまり──、☆
-  - expected: $1──$2
-    pattern: /(?:([^―|─])─)|(?:─([^―|─]))/
 
   - expected: "!?"
     pattern: ！？
