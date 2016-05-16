@@ -67,3 +67,6 @@ rules:
         to: WebVRをCustom Elementのタグを書くだけで出来るライブラリ
   - expected: operator
     patterns: oeprator
+
+  - expected: サイトイン
+    patterns: サインイン
