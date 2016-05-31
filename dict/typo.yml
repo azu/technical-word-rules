@@ -76,3 +76,6 @@ rules:
     specs:
       - from: webpacのビルド速度改善についてのスライド
         to: webpackのビルド速度改善についてのスライド
+
+  - expected: package.json
+    patterns: packge.json
