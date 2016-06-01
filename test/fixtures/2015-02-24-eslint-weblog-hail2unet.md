@@ -10,4 +10,4 @@ tags:
   - Tools
 ---
 ESLintの設定について。
-packge.jsonにも設定を書くことができ、JSHintからの移行について
+package.jsonにも設定を書くことができ、JSHintからの移行について
