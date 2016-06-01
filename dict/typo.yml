@@ -68,8 +68,8 @@ rules:
   - expected: operator
     patterns: oeprator
 
-  - expected: サイトイン
-    patterns: サインイン
+  - expected: サインイン
+    patterns: サイトイン
 
   - expected: webpack
     patterns: /\bwebpac(?!k)\b/
