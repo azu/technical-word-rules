@@ -80,6 +80,7 @@ rules:
   - expected: Web Audio API
     patterns:
       - /WebAudio API/i
+      - /Web AudioAPI/i
       - /Web Audio API/i
   # Service Workerの機能についての言及
   # 仕様についてはService Workers、InterfaceについてはServiceWorker
