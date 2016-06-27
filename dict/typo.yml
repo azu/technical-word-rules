@@ -79,3 +79,8 @@ rules:
 
   - expected: package.json
     patterns: packge.json
+
+  - expected: 型定義
+    patterns: 方定義
+    options:
+      wordBoundary: true
