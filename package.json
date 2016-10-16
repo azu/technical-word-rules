@@ -21,6 +21,9 @@
     "update:submodule": "git submodule foreach git pull origin master",
     "prepublish": "npm run clean && npm run update:submodule && npm run build"
   },
+  "release": {
+    "branch": "gh-pages"
+  },
   "directories": {
     "test": "test/"
   },
