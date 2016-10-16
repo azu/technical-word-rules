@@ -9,7 +9,7 @@ var prh = require("prh");
 
 gulp.task("build", function (taskCallback) {
     var allContents = [];
-    gulp.src("dict/*.yml")
+    gulp.src(["prh/**/*.yml", "!_*.yml"])
         .pipe(es.map(function (file, cb) {
             var config = prh.fromYAMLFilePath(file.path);
             var results = config.rules.map(function (rule) {

@@ -11,40 +11,11 @@ CodeMirrorで利用する場合は以下のライブラリから利用できま�
 
 - [azu/codemirror-spellckecker](https://github.com/azu/codemirror-spellckecker "azu/codemirror-spellckecker")
 
-## 辞書の書式
+## 辞書
 
-[prh](https://github.com/vvakame/prh "vvakame/prh")のyml形式でルールを記述します。
+辞書データは[azu/prh.yml: A collection of prh.yml](https://github.com/azu/prh.yml "azu/prh.yml: A collection of prh.yml")で管理しています。
 
-```yml
-rules:
-# expectedのみだと 大文字小文字全角半角の統一 されてるかをチェックできる
-  - expected: jQuery
-    specs:
-      - from: jquery
-        to:   jQuery
-      - from: ＪＱＵＥＲＹ
-        to:   jQuery
-# patternにマッチするものはexpecetedが本来の表現であるというルール
-# ディフォルト => デフォルト
-# 表現の統一を図る
-  - expected: デフォルト
-    pattern:  ディフォルト
-# 正規表現も使える
-# 正規表現リテラルはymlの拡張であるがJavaScriptの正規表現と同じ
-  - expected: $1ソフトウェア
-    pattern:  /([^経])ソフトウエア/
-    specs:
-      # 普通に変換
-      - from: 広義のソフトウエア
-        to:   広義のソフトウェア
-      # 日経ソフトウエア(書名)は変換しない
-      - from: 日経ソフトウエア
-        to:   日経ソフトウエア
-```
-
-詳しくは以下を参照します。
-
-- [prh/sample.yml at master · vvakame/prh](https://github.com/vvakame/prh/blob/master/misc/sample.yml "prh/sample.yml at master · vvakame/prh")
+このリポジトリはコンパイル済みのJSONデータのみを管理しています。
 
 ## API
 

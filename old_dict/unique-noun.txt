@@ -1,3 +1,0 @@
-# https://en.wikipedia.org/wiki/Ecma_International
-Ecma標準	ECMA標準
-ES.next	ES next

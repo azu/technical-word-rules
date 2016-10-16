@@ -1,0 +1,3 @@
+[submodule "prh"]
+	path = prh
+	url = https://github.com/azu/prh.yml.git

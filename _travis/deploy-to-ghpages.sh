@@ -26,7 +26,7 @@ echo "MESSAGE :" $lastCommit
 
 git add . --verbose
 git add -f all.json --verbose
-git commit -m "Travis build $TRAVIS_BUILD_NUMBER"
+git commit -m "chore: Travis build $TRAVIS_BUILD_NUMBER"
 
 echo "=PUSH STATUS="
 git status
