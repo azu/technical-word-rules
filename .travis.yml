@@ -7,7 +7,10 @@ notifications:
   email: false
 node_js:
   - '4'
+git:
+  submodules: false
 before_install:
+  - git submodule update --init --recursive
   - npm i -g npm@^2.0.0
 before_script:
   - npm prune

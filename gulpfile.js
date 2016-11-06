@@ -13,6 +13,7 @@ gulp.task("build", function(taskCallback) {
         "prh/ja/jser-info.yml",
         "prh/ja/spoken.yml",
         "prh/ja/typo.yml",
+        "prh/ja/web+db.yml",
         "prh/css.yml",
         "prh/javascript.yml",
         "prh/other.yml",
