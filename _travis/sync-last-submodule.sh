@@ -14,4 +14,6 @@ END
 )
 cd "${parentDir}"
 git status
+git add prh
 git commit -m "${commitMessage}"
+git push
