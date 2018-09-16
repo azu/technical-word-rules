@@ -1,0 +1,1 @@
+reduxの世界とReact.jsの世界をつなぐ際はreact-reduxを使います。Reduxで副作用を扱う際はredux-thunkなどを別途検討してください。
