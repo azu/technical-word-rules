@@ -7,7 +7,7 @@
     "url": "https://github.com/azu/technical-word-rules.git"
   },
   "main": "all.json",
-  "version": "1.9.3",
+  "version": "1.9.4",
   "files": [
     "all.json",
     "dict",
