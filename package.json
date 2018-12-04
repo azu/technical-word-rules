@@ -1,0 +1,43 @@
+{
+  "name": "technical-word-rules",
+  "description": "technical term word rules list(wzeditor).",
+  "homepage": "https://github.com/azu/technical-word-rules/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/technical-word-rules.git"
+  },
+  "main": "all.json",
+  "version": "1.9.5",
+  "files": [
+    "all.json",
+    "dict",
+    "index.js"
+  ],
+  "scripts": {
+    "clean": "rimraf all.json",
+    "build": "gulp build",
+    "test": "npm run textlint:failure",
+    "textlint:failure": "! textlint ./test/failure/ && echo 'Test Failure is Success.\nThis failure is indeed!'",
+    "update:submodule": "git submodule foreach git pull origin master",
+    "prepublish": "npm run clean && npm run update:submodule && npm run build"
+  },
+  "directories": {
+    "test": "test/"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/technical-word-rules/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "event-stream": "^3.1.7",
+    "gulp": "^3.8.8",
+    "gulp-concat": "^2.4.1",
+    "prh": "^1.0.3",
+    "rimraf": "^2.5.2",
+    "textlint": "^7.1.2",
+    "textlint-rule-prh": "^3.1.2",
+    "wzeditor-word-rules-parser": "^1.1.0"
+  }
+}
